@@ -827,7 +827,7 @@ p {
 }
 input.form-control,
 textarea.form-control {
-  background: #249991;
+  background: #ce5f5f;
   border: 0px solid #35aaa2;
   padding-top: -2px;
   border-radius: 5px;
@@ -848,7 +848,7 @@ textarea.form-control {
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   min-width: 200px;
-  background: #3b658a;
+  background: #249991;
   color: #fff;
   display: block;
   height: 40px;
