@@ -500,7 +500,7 @@ p {
   font-style: italic;
 }
 
-.quote {
+.content_quote {
   margin-top: 8px;
   margin-bottom: 8px;
   margin-left: 10px;
@@ -587,7 +587,7 @@ p {
 }
 .timeline-education:before {
   background: url('../img/progress-education4.png') no-repeat center center;
-  background-size: 400px 680px;
+  background-size: 400px 800px;
 }
 .timeline-work:before {
   background: url('../img/progress-work3.png') no-repeat center center;
