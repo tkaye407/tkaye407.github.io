@@ -490,6 +490,27 @@ p {
 .resume-container {
   background: url('../img/paper-bg2.png') no-repeat top left, url('../img/paper-bg-bot.png') no-repeat bottom right, #fafafa;
 }
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+  color: #ce5f5f;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.quote {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 7px;
+  border-color: #010F03;
+  border-width: 3px;
+  border-style: dashed;
+  border-radius: 20px;
+}
 /* ==========================================================
 ! 7. Profile intro
 ========================================================== */
@@ -566,7 +587,7 @@ p {
 }
 .timeline-education:before {
   background: url('../img/progress-education4.png') no-repeat center center;
-  background-size: 400px 580px;
+  background-size: 400px 680px;
 }
 .timeline-work:before {
   background: url('../img/progress-work3.png') no-repeat center center;
@@ -574,7 +595,7 @@ p {
 }
 .timeline-mail:before {
   background: url('../img/progress-mail3.png') no-repeat center center;
-  background-size: 400px 500px;
+  background-size: 400px 740px;
 }
 .timeline-title:before {
   background: url('../img/progress-section-title3.png') no-repeat center center;
@@ -1036,4 +1057,13 @@ textarea.form-control {
 }
 .mac.gecko #portfolio .line-content {
   height: 280px;
+}
+
+
+.custom_photo {
+  border-radius: 25px;
+  border-width: 5px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 10px;
 }
