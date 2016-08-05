@@ -50,9 +50,11 @@
   <link href="apple-touch-icon-57.png" rel="apple-touch-icon-precomposed">
   <!-- /Favicon
   ========================================================= -->
+
+
 </head>
 
-<body data-spy="scroll" data-target="#side-menu">
+<body data-spy="scroll" data-target="#side-menu" onload="moveMenu()" >
 
 <!-- Page Loader
 ========================================================= -->
@@ -1516,5 +1518,12 @@
 <!-- Configurations -->
 <script src="js/main.js"></script>
 <!-- /Configurations -->
+<script>
+  function moveMenu() {
+      $('.side-menu').animate({'left': '0px'}, 600, 'easeOutCubic');
+  }
+</script>
+Try it Yourself »
+
 </body>
 </html>
