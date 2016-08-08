@@ -567,7 +567,7 @@ p {
   background: #fafafa;
 }
 .timeline-progress {
-  background: url('../img/timeline-bg.png') repeat-x center center fixed #ce5f5f;
+  background: url('../img/timeline/timeline-bg.png') repeat-x center center fixed #ce5f5f;
   position: relative;
 }
 .timeline-progress:before {
@@ -578,27 +578,27 @@ p {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url('../img/progress-bar.png') repeat-y center;
+  background: url('../img/timeline/progress-bar.png') repeat-y center;
   background-size: 400px 9px;
 }
 .timeline-point:before {
-  background: url('../img/progress-point.png') center center;
+  background: url('../img/timeline/progress-point.png') center center;
   background-size: 400px 500px;
 }
 .timeline-education:before {
-  background: url('../img/progress-education4.png') no-repeat center center;
+  background: url('../img/timeline/progress-education4.png') no-repeat center center;
   background-size: 400px 800px;
 }
 .timeline-work:before {
-  background: url('../img/progress-work3.png') no-repeat center center;
+  background: url('../img/timeline/progress-work3.png') no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-mail:before {
-  background: url('../img/progress-mail3.png') no-repeat center center;
+  background: url('../img/timeline/progress-mail3.png') no-repeat center center;
   background-size: 400px 740px;
 }
 .timeline-title:before {
-  background: url('../img/progress-section-title3.png') no-repeat center center;
+  background: url('../img/timeline/progress-section-title3.png') no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-margin .content-wrap {
